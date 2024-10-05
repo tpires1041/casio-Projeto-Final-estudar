@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Site oficial da CASIO | CASIO</title>
+    <!-- casio icon -->
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/887389770681032735/1039611149181800569/image.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+        <!-- google fonts noto sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap" rel="stylesheet">
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+      h6{
+        font-family: 'Noto Sans';
+        font-size: 18px;
+      }
+      
+    </style>
+
+
+    
+  </head>
+
+  <body class="bg-light">
+
+<!-- Start your project here-->
+
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#ffffff;">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    
+    <!-- Navbar brand -->
+    <a href="index.html">
+         <img alt="logo" src="casiologo.png"
+         width="95.11" height="17.99">
+      </a>
+    
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarCenteredExample"
+      aria-controls="navbarCenteredExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div
+      class="collapse navbar-collapse justify-content-center"
+      id="navbarCenteredExample"
+    >
+      <!-- Left links -->
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="produtos.html">Todos os relógios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contatos.html">Contatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+      
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+
+<div class="container">
+  <main>
+    
+
+      <br>
+      <br>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Endereço de cobrança</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Primeiro nome</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Nome válido é obrigatório.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                O sobrenome válido é obrigatório.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Nome de usuário</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Nome de usuário" required>
+              <div class="invalid-feedback">
+                  Seu nome de usuário é obrigatório.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-muted">(Opcional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com">
+              <div class="invalid-feedback">
+                Insira um endereço de e-mail válido para atualizações de envio.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Endereço</label>
+              <input type="text" class="form-control" id="address" placeholder="Rua legal 1234" required>
+              <div class="invalid-feedback">
+                Por favor insira seu endereço de entrega.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Endereço 2 <span class="text-muted">(Opcional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartamento etc">
+            </div>
+
+            <div class="col-md-5">
+              <label for="país" class="form-label">País</label>
+              <select class="form-select" id="país" required>
+                <option value="">Escolha...</option>
+                <option>Brasil</option>
+              </select>
+              <div class="invalid-feedback">
+                Selecione um país válido.
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">Estado</label>
+              <select class="form-select" id="state" required>
+                <option value="">Escolha...</option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Distrito Federal*</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+              </select>
+              <div class="invalid-feedback">
+                Forneça um estado válido.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cep" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="cep" placeholder="" required>
+              <div class="invalid-feedback">
+                Código postal (CEP) necessário.
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">O endereço de entrega é o mesmo do meu endereço de cobrança</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">Salve esta informação para a próxima vez</label>
+          </div>
+
+          <hr class="my-4">
+
+          <h4 class="mb-3">Pagamento</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <label class="form-check-label" for="credit">Cartão de crédito</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="debit">Cartão de débito</label>
+            </div>
+            <div class="form-check">
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Nome no cartão</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+              <small class="text-muted">Nome completo conforme exibido no cartão</small>
+              <div class="invalid-feedback">
+                O nome no cartão é obrigatório
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Número do cartão de crédito</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <div class="invalid-feedback">
+                Credit card number is required
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Validade</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <div class="invalid-feedback">
+                Expiração
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <div class="invalid-feedback">
+                Security code required
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Finalizar a compra</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.facebook.com/CASIOGSHOCKBrasil"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.instagram.com/casiobrasil/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Youtube -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.youtube.com/user/GShockBr"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-youtube"></i
+      ></a>
+      <!-- Tik Tok -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.tiktok.com/@gshockbr"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-tiktok"></i
+      ></a>
+    <!-- Section: Social media -->
+  </div>
+
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">Casio Brasil</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+      <script src="form-validation.js"></script>
+
+    
+<!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+  </body>
+</html>

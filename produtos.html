@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Site oficial da CASIO | CASIO</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- casio icon -->
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/887389770681032735/1039611149181800569/image.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+        <!-- google fonts noto sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap" rel="stylesheet">
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+      h6{
+        font-family: 'Noto Sans';
+        font-size: 18px;
+      }
+      
+    </style>
+
+
+    
+  </head>
+
+  
+  <body onload="init()">
+    
+    <!-- Start your project here-->
+
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#ffffff;">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    
+    <!-- Navbar brand -->
+    <a href="index.html">
+         <img alt="logo" src="casiologo.png"
+         width="95.11" height="17.99">
+      </a>
+    
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarCenteredExample"
+      aria-controls="navbarCenteredExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div
+      class="collapse navbar-collapse justify-content-center"
+      id="navbarCenteredExample"
+    >
+      <!-- Left links -->
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="produtos.html">Todos os relógios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contatos.html">Contatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarCenteredExample"
+    >
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <p class="nav-link active" aria-current="page" id="nome">Nome</p>
+        </li>
+        <li class="nav-item">
+          <p class="nav-link active" aria-current="page" id="local">Local</p>
+        </li>
+      </ul>
+
+      
+    
+
+      <!-- Search form -->
+      <div class="d-flex input-group w-auto">
+      <input
+        type="search"
+        id="search"
+        class="form-control rounded"
+        placeholder="Pesquise"
+        aria-label="Search"
+        aria-describedby="search-addon"
+      />
+      <span class="input-group-text border-0" id="search-addon">
+        <button onclick="pesquisar()" class="btn btn-outline-sucess">Pesquisar</button>
+      </span>
+      </div>
+
+      
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#"
+        role="button"
+        onclick="carregaCarrinho()"
+        data-mdb-ripple-color="dark"
+        ><i class="fas fa-shopping-cart"></i
+      ></a>
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        role="button"
+        onclick="filtroFavoritos()"
+        data-mdb-ripple-color="dark"
+        ><i class="far fa-heart"></i
+      ></a>
+    </div>
+    
+
+    
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+      
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+  
+     <h2 class="meio">Relógios</h2>
+    <div class="d-flex justify-content-start bg-#FFFFFF mb-3">
+        <div class="p-2 col-example">
+          <button onclick="filtroTodas()">
+          Todas
+          </button>
+        </div>
+        <div class="p-2 col-example">
+          <button onclick="filtroGshock()">
+          <img src="https://www.casio.com/content/dam/casio/global/watch/g_shock/logo/g-shock.svg" class="img-fluid"/>
+          </button>
+        </div>
+        <div class="p-2 col-example">
+          <button onclick="filtroBabyg()">
+          <img src="https://www.casio.com/content/dam/casio/global/watch/baby_g/logo/baby-g.svg" class="img-fluid"/>
+          </button>
+        </div>
+        <div class="p-2 col-example">
+          <button onclick="filtroEdifice()">
+          <img src="https://www.casio.com/content/dam/casio/global/watch/edifice/logo/edifice.svg" class="img-fluid"/>
+          </button>
+        </div>
+      </div>
+
+    <div class="d-flex justify-content-end bg-#FFFFFF mb-3">
+      <div class="dropdown">
+  <button
+    class="btn btn-light dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-mdb-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Ordenar por:
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><a class="dropdown-item" href=# onclick="ordenarRecente()">Mais recentes</a></li>
+    <li><a class="dropdown-item" href=# onclick="ordenarBarato()">Preço: baixo-alto</a></li>
+    <li><a class="dropdown-item" href="#" onclick="ordenarCaro()">Preço: alto-baixo</a></li>
+  </ul>
+</div>
+</div>
+
+
+    <div class="text-center">
+    <div id="containerCategoria" class="container-fluid row gx-2">
+    </div>
+    <div id="containerProdutos" class="container-fluid row">
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<button class="button-scroll" onclick="scrolltop()">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+    
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.facebook.com/CASIOGSHOCKBrasil"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.instagram.com/casiobrasil/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Youtube -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.youtube.com/user/GShockBr"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-youtube"></i
+      ></a>
+      <!-- Tik Tok -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.tiktok.com/@gshockbr"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-tiktok"></i
+      ></a>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">Casio Brasil</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+    <script src="/data/script.js"></script>
+   
+   
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+  </body>
+</html>

@@ -1,0 +1,408 @@
+{
+   "produtos":[
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GB/GBD/GBD-H1000BAR-4/assets/GBD-H1000BAR-4.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GBD-H1000BAR-4",
+         "add":"Preço da loja on-line",
+         "preco":6329,
+         "alt":"GBD-H1000BAR-4",
+         "id":1,
+         "favorito":false
+      },
+      {
+         "img":"/novosprodutos/nps02.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GA-2200NN-1A",
+         "add":"Preço da loja on-line",
+         "preco":1099,
+         "alt":"GA-2200NN-1A",
+         "id":2,
+         "favorito":false
+      },
+      {
+         "img":"/novosprodutos/nps03.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GX-56SL-4",
+         "add":"Preço da loja on-line",
+         "preco":1199,
+         "alt":"GX-56SL-4",
+         "id":3,
+         "favorito":false
+      },
+      {
+         "img":"/novosprodutos/nps04.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GLX-5600RT-9",
+         "add":"Preço da loja on-line",
+         "preco":799,
+         "alt":"GLX-5600RT-9",
+         "id":4,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GM/GMS/GM-S5600-1/assets/GM-S5600-1_Seq1.png.transform/main-visual-pc/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GM-S5600-1",
+         "add":"Preço da loja on-line",
+         "preco":1299,
+         "alt":"GM-S5600-1",
+         "id":5,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GM/GMA/GMA-S2100-1A/assets/GMA-S2100-1A_Seq1.png.transform/main-visual-pc/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GMA-S2100-1A",
+         "add":"Preço da loja on-line",
+         "preco":899,
+         "alt":"GMA-S2100-1A",
+         "id":6,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GA/GA2/ga-2100-1a2/assets/GA-2100-1A2.png.transform/main-visual-pc/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GA-2100-1A2",
+         "add":"Preço da loja on-line",
+         "preco":1059,
+         "alt":"GA-2100-1A2",
+         "id":7,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GB/GBD/gbd-200-9/assets/GBD-200-9.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GBD-200-9",
+         "add":"Preço da loja on-line",
+         "preco":1399,
+         "alt":"GBD-200-9",
+         "id":8,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GA/GA2/ga-2100srs-7a/assets/GA-2100SRS-7A.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GM-S5600-1",
+         "add":"Preço da loja on-line",
+         "preco":1299,
+         "alt":"GM-S5600-1",
+         "id":9,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GM/GMA/GMA-S2100-1A/assets/GMA-S2100-1A_Seq1.png.transform/main-visual-pc/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GA-2100SU-1ADR",
+         "add":"Preço da loja on-line",
+         "preco":899,
+         "alt":"GA-2100SU-1ADR",
+         "id":10,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GM/GMA/gma-s2100sk-7a/assets/GMA-S2100SK-7A.png.transform/main-visual-pc/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GMA-S2100SK-7A",
+         "add":"Preço da loja on-line",
+         "preco":999,
+         "alt":"GMA-S2100SK-7A",
+         "id":11,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/B/BG/BGD/bgd-565-1/assets/BGD-565-1.png.transform/main-visual-pc/image.png",
+         "categoria":"BABY-G",
+         "modelo":"BGD-565-1",
+         "add":"Preço da loja on-line",
+         "preco":499,
+         "alt":"BGD-565-1",
+         "id":12,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/B/BG/BGD/bgd-565-4/assets/BGD-565-4.png.transform/product-panel/image.png",
+         "categoria":"BABY-G",
+         "modelo":"BGD-565-4",
+         "add":"Preço da loja on-line",
+         "preco":499,
+         "alt":"BGD-565-4",
+         "id":13,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/B/BG/BGD/bgd-565-7/assets/BGD-565-7.png.transform/product-panel/image.png",
+         "categoria":"BABY-G",
+         "modelo":"BGD-565-7",
+         "add":"Preço da loja on-line",
+         "preco":499,
+         "alt":"BGD-565-7",
+         "id":14,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/B/BG/BGD/bgd-565s-7/assets/BGD-565S-7.png.transform/product-panel/image.png",
+         "categoria":"BABY-G",
+         "modelo":"BGD-565S-7",
+         "add":"Preço da loja on-line",
+         "preco":499,
+         "alt":"BGD-565S-7",
+         "id":15,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/B/BA/BA1/BA-110PKC-4A/assets/BA-110PKC-4A_Seq1.png.transform/product-panel/image.png",
+         "categoria":"BABY-G",
+         "modelo":"BA-110PKC-4A",
+         "add":"Preço da loja on-line",
+         "preco":1299,
+         "alt":"BA-110PKC-4A",
+         "id":16,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/B/BA/BA1/BA-110GA-1A/assets/BA-110GA-1A_Seq1.png.transform/main-visual-pc/image.png",
+         "categoria":"BABY-G",
+         "modelo":"BA-110GA-1A",
+         "add":"Preço da loja on-line",
+         "preco":899,
+         "alt":"BA-110GA-1A",
+         "id":17,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/E/EF/EFV/efv-c110d-1a3v/assets/EFV-C110D-1A3V.png.transform/product-panel/image.png",
+         "categoria":"EDIFICE",
+         "modelo":"EFV-C110D-1A3V",
+         "add":"Preço da loja on-line",
+         "preco":899,
+         "alt":"EFV-C110D-1A3V",
+         "id":18,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/E/EF/EFV/efv-c110d-1a4v/assets/EFV-C110D-1A4V.png.transform/product-panel/image.png",
+         "categoria":"EDIFICE",
+         "modelo":"EFV-C110D-1A4V",
+         "add":"Preço da loja on-line",
+         "preco":899,
+         "alt":"EFV-C110D-1A4V",
+         "id":19,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/E/EF/EFV/efv-c110d-2av/assets/EFV-C110D-2AV.png.transform/product-panel/image.png",
+         "categoria":"EDIFICE",
+         "modelo":"EFV-C110D-2AV",
+         "add":"Preço da loja on-line",
+         "preco":899,
+         "alt":"EFV-C110D-2AV",
+         "id":20,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/E/EF/EFV/efv-c110l-1av/assets/EFV-C110L-1AV.png.transform/product-panel/image.png",
+         "categoria":"EDIFICE",
+         "modelo":"EFV-C110L-1AV",
+         "add":"Preço da loja on-line",
+         "preco":899,
+         "alt":"EFV-C110L-1AV",
+         "id":21,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/E/EF/EFR/EFR-571MDC-1AV/assets/EFR-571MDC-1AV_Seq1.png.transform/product-panel/image.png",
+         "categoria":"EDIFICE",
+         "modelo":"EFR-571MDC-1AV",
+         "add":"Preço da loja on-line",
+         "preco":1399,
+         "alt":"EFR-571MDC-1AVA",
+         "id":22,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/E/EF/EFS/EFS-S590AT-1A/assets/EFS-S590AT-1A_Seq1.png.transform/product-panel/image.png",
+         "categoria":"EDIFICE",
+         "modelo":"EFS-S590AT-1A",
+         "add":"Preço da loja on-line",
+         "preco":3059,
+         "alt":"EFS-S590AT-1A",
+         "id":23,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/E/EF/EFR/EFR-S572D-1AV/assets/EFR-S572D-1AV_Seq1.png.transform/product-panel/image.png",
+         "categoria":"EDIFICE",
+         "modelo":"EFR-S572D-1AV",
+         "add":"Preço da loja on-line",
+         "preco":999,
+         "alt":"EFR-S572D-1AV",
+         "id":24,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/E/EF/EFR/EFR-S572DC-1AV/assets/EFR-S572DC-1AV_Seq1.png.transform/product-panel/image.png",
+         "categoria":"EDIFICE",
+         "modelo":"EFV-C110L-1AV",
+         "add":"Preço da loja on-line",
+         "preco":1299,
+         "alt":"EFV-C110L-1AV",
+         "id":25,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GM/GMS/gm-s2100br-5a/assets/GM-S2100BR-5A.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GM-S2100BR-5A",
+         "add":"Preço da loja on-line",
+         "preco":1399,
+         "alt":"GM-S2100BR-5A",
+         "id":26,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GM/GMA/gma-s2100sk-1a/assets/GMA-S2100SK-1A.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GMA-S2100SK-1A",
+         "add":"Preço da loja on-line",
+         "preco":999,
+         "alt":"GMA-S2100SK-1A",
+         "id":27,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GA/GA1/ga-100skc-1a/assets/GA-100SKC-1A.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GA-100SKC-1A",
+         "add":"Preço da loja on-line",
+         "preco":799,
+         "alt":"GA-100SKC-1A",
+         "id":28,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GA/GA1/ga-100skc-1a/assets/GA-100SKC-1A.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GA-700SKC-1A",
+         "add":"Preço da loja on-line",
+         "preco":899,
+         "alt":"GA-700SKC-1A",
+         "id":29,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GM/GMS/gm-s5600br-5/assets/GM-S5600BR-5.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GM-S5600BR-5",
+         "add":"Preço da loja on-line",
+         "preco":1199,
+         "alt":"GM-S5600BR-5",
+         "id":30,
+         "favorito":false
+      },
+
+     {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GX/GX5/gx-56ss-1/assets/GX-56SS-1.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK ",
+         "modelo":"GX-56SS-1",
+         "add":"Preço da loja on-line",
+         "preco":1299,
+         "alt":"GX-56SS-1",
+         "id":31,
+         "favorito":false
+      },
+     
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/D/DW/DW5/dw-5600gu-7/assets/DW-5600GU-7.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"DW-5600GU-7",
+         "add":"Preço da loja on-line",
+         "preco":999,
+         "alt":"DW-5600GU-7",
+         "id":32,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/D/DW/DWE/dwe-5600hg-1/assets/DWE-5600HG-1.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"DWE-5600HG-1",
+         "add":"Preço da loja on-line",
+         "preco":999,
+         "alt":"DWE-5600HG-1",
+         "id":33,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GA/GA2/ga-2100nn-1a/assets/GA-2100NN-1A.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GA-2100NN-1A",
+         "add":"Preço da loja on-line",
+         "preco":1099,
+         "alt":"GA-2100NN-1A",
+         "id":34,
+         "favorito":false
+      },
+
+     {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GB/GBD/gbd-200uu-1/assets/GBD-200UU-1.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GBD-200UU-1",
+         "add":"Preço da loja on-line",
+         "preco":1399,
+         "alt":"GBD-200UU-1",
+         "id":35,
+         "favorito":false
+      },
+     
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/D/DW/DW5/dw-5600nn-1/assets/DW-5600NN-1.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"DW-5600NN-1",
+         "add":"Preço da loja on-line",
+         "preco":799,
+         "alt":"DW-5600NN-1",
+         "id":36,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GB/GBA/gba-900uu-3a/assets/GBA-900UU-3A.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GBA-900UU-3A",
+         "add":"Preço da loja on-line",
+         "preco":1299,
+         "alt":"GBA-900UU-3A",
+         "id":37,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/D/DW/DW5/dw-5600sr-1/assets/DW-5600SR-1.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"DW-5600SR-1",
+         "add":"Preço da loja on-line",
+         "preco":699,
+         "alt":"DW-5600SR-1",
+         "id":38,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/D/DW/DW5/dw-5600srs-7/assets/DW-5600SRS-7.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"DW-5600SRS-7",
+         "add":"Preço da loja on-line",
+         "preco":799,
+         "alt":"DW-5600SRS-7",
+         "id":39,
+         "favorito":false
+      },
+      {
+         "img":"https://www.casio.com/content/dam/casio/product-info/locales/br/pt-br/timepiece/product/watch/G/GM/GMA/gma-s2200-1a/assets/GMA-S2200-1A_01.png.transform/product-panel/image.png",
+         "categoria":"G-SHOCK",
+         "modelo":"GMA-S2200-1A",
+         "add":"Preço da loja on-line",
+         "preco":799,
+         "alt":"GMA-S2200-1A",
+         "id":40,
+         "favorito":false
+      }
+   ]
+}
